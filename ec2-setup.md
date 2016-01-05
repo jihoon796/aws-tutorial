@@ -19,10 +19,15 @@ For this tutorial, please choose the **Amazon Linux AMI** - it seems well-suited
 
 This really depends on what you want to do. For the most part, **t2.micro**, **t2.small**, or **t2.medium** should be enough to do anything you need. You can always upgrade/downgrade the instances as needed in the future!
 
-**Step 7: Review Instance Launch**
+**Step 3: Review Instance Launch**
 
-If you followed the steps mentioned above, you should've been skipped ahead to step 7. In this step, we'll configure the **Security Groups** setting. The default security groups setting won't actually allow you to use EC2 through your local machine, so getting this part working is essential.
+If you followed the steps mentioned above, you should've been skipped ahead to step 7 on the AWS console. In this step, we'll configure the **Security Groups** setting. The default security groups setting won't actually allow you to use EC2 through your local machine, so getting this part working is essential.
 
 Click on *Edit security groups* on the bottom right. Once you've done that, click on the *Create a new security group* radio button. Be sure to give your security group a name you won't easily forget, since you may be referring back to this at some point in the future. Go to **Type**, then select the **All traffic** option. Check to see that the **Protocol** is set to *All*, the **Port Range** is set to **0 - 65535**, and the **Source** is **Anywhere**.
 
-Click **Review and Launch** when you are completed.
+Click **Review and Launch** when you are completed. Ignore the next page and click **Launch**.
+
+**Step 4: Create a New Key Pair**
+
+Now this is where things get a bit tricky. A key pair is a file that you need to download that is necessary for you to SSH into an EC2 instance. You'll need to create a new key pair and download that key pair into somewhere accessible. I personally recommend downloading that key pair to your home directory, because that's where it's the most accessible. 
+
