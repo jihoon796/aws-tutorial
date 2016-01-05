@@ -1,4 +1,5 @@
 # EC2 Instance Setup
+*Updated January 5, 2016*
 
 Before we can setup an EC2 instance, you will need to create an AWS account at https://aws.amazon.com/
 
@@ -11,13 +12,17 @@ To begin setting up your EC2 instance, click on *EC2* on the left side of the pa
 
 Choosing an AMI basically means choosing the type of computer and operating system you will work with. There are pros and cons to each of the choices listed, but you can't really go wrong with any of the Linux distributions like Red Hat Enterprise, SUSE, and Ubuntu. "Amazon Linux" itself similar to CentOS (another Linux distro) and is essentially a minimalistic install of Red Hat Enterprise Linux (RHEL).
 
-Personally speaking, I chose the **Amazon Linux AMI** because it seems well-suited and optimized for working with AWS.
+For this tutorial, please choose the **Amazon Linux AMI** - it seems well-suited and optimized for working with AWS.
 
 
 **Step 2: Choose an Instance Type**
 
 This really depends on what you want to do. For the most part, **t2.micro**, **t2.small**, or **t2.medium** should be enough to do anything you need. You can always upgrade/downgrade the instances as needed in the future!
 
+**Step 7: Review Instance Launch**
 
+If you followed the steps mentioned above, you should've been skipped ahead to step 7. In this step, we'll configure the **Security Groups** setting. The default security groups setting won't actually allow you to use EC2 through your local machine, so getting this part working is essential.
 
+Click on *Edit security groups* on the bottom right. Once you've done that, click on the *Create a new security group* radio button. Be sure to give your security group a name you won't easily forget, since you may be referring back to this at some point in the future. Go to **Type**, then select the **All traffic** option. Check to see that the **Protocol** is set to *All*, the **Port Range** is set to **0 - 65535**, and the **Source** is **Anywhere**.
 
+Click **Review and Launch** when you are completed.
