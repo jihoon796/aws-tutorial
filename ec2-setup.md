@@ -8,9 +8,17 @@ To begin setting up your EC2 instance, click on *EC2* on the left side of the pa
 
 
 **Step 1: Choose an Amazon Machine Image (AMI)**
+
 Choosing an AMI basically means choosing the type of computer and operating system you will work with. There are pros and cons to each of the choices listed, but you can't really go wrong with any of the Linux distributions like Red Hat Enterprise, SUSE, and Ubuntu. "Amazon Linux" itself similar to CentOS (another Linux distro) and is essentially a minimalistic install of Red Hat Enterprise Linux (RHEL).
 
-Personally speaking, I chose the *Amazon Linux AMI* because it seems well-suited and optimized for working with AWS.
+Personally speaking, I chose the **Amazon Linux AMI** because it seems well-suited and optimized for working with AWS.
+
+
+**Step 2: Choose an Instance Type**
+
+This really depends on what you want to do. For the most part, **t2.micro**, **t2.small**, or **t2.medium** should be enough to do anything you need. You can always upgrade/downgrade the instances as needed in the future. 
+
+
 
 
 
