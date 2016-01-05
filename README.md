@@ -1,4 +1,4 @@
-# Amazon Web Services (AWS) Tutorial
+# Introduction to Amazon Web Services (AWS)
 
 The goal of this tutorial is to help you set up several key AWS services on your local machine. 
 
