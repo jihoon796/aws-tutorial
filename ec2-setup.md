@@ -16,8 +16,7 @@ Personally speaking, I chose the **Amazon Linux AMI** because it seems well-suit
 
 **Step 2: Choose an Instance Type**
 
-This really depends on what you want to do. For the most part, **t2.micro**, **t2.small**, or **t2.medium** should be enough to do anything you need. You can always upgrade/downgrade the instances as needed in the future. 
-
+This really depends on what you want to do. For the most part, **t2.micro**, **t2.small**, or **t2.medium** should be enough to do anything you need. You can always upgrade/downgrade the instances as needed in the future!
 
 
 
