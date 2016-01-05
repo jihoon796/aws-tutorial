@@ -18,7 +18,7 @@ For this tutorial, please choose the **Amazon Linux AMI** - it seems well-suited
 **Step 2: Choose an Instance Type**
 
 This really depends on what you want to do. For the most part, **t2.micro**, **t2.small**, or **t2.medium** should be enough to do anything you need. You can always upgrade/downgrade the instances as needed in the future!
-<br>
+<br><br>
 
 **Step 3: Review Instance Launch**
 
