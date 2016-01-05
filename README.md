@@ -17,6 +17,6 @@ Before we can get started, there are 5 acronyms you must be familiar with:
 
 **EB**, or **Elastic Beanstalk**, is a Platform-as-a-Service (PaaS) tool that provides a platform allowing customers to develop, run, and manage web applications without the complexity of building and maintaining the infrastructure typically associated with developing and launching an app.
 
-**SSH**, or **Secure Shell**, is a UNIX-based command interface and protocol for securely getting access to a remote computer. It is widely used by network administrators to control Web and other kinds of servers remotely.
+**SSH**, or **Secure Shell**, is a UNIX-based command interface and protocol for securely getting access to a remote computer. It is widely used by network administrators to control Web and other kinds of servers remotely. This is the most common way to access an EC2 instance.
 
 *Please read the remainder of the tutorials (organized by file in this repository) for more details on setup for each AWS component.*
