@@ -1,6 +1,6 @@
 # EC2 Instance Setup
 *Updated January 5, 2016*
-
+<br><br>
 Before we can setup an EC2 instance, you will need to create an AWS account at https://aws.amazon.com/
 
 Once you've signed up for an AWS account, go to *My Account* on the top right corner, and click on *AWS Management Console*. It's a good idea to bookmark the management console, because it'll be useful in the future. While you're in the management console, be sure to edit your location settings (if applicable) - your location is set to Oregon by default, so make sure to bookmark to correct page!
