@@ -27,6 +27,7 @@ If you followed the steps mentioned above, you should've been skipped ahead to s
 Click on *Edit security groups* on the bottom right. Once you've done that, click on the *Create a new security group* radio button. Be sure to give your security group a name you won't easily forget, since you may be referring back to this at some point in the future. Go to **Type**, then select the **All traffic** option. Check to see that the **Protocol** is set to *All*, the **Port Range** is set to **0 - 65535**, and the **Source** is **Anywhere**.
 
 Click **Review and Launch** when you are completed. Ignore the next page and click **Launch**.  
+<br><br>
 
 **Step 4: Create a New Key Pair**
 
