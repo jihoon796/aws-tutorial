@@ -48,4 +48,4 @@ At this point, you should get a welcome message at this point from the Amazon Li
 
 One gotcha about Amazon Linux is that sudo pip install won't work well - you'll have to follow my directions here: http://stackoverflow.com/questions/34103119/upgrade-pip-in-amazon-linux/34584537#34584537
 
-The next part of the tutorial will help you set up RDS to work on your computer. 
+*The next part of the tutorial will help you set up RDS to work on your computer.*
