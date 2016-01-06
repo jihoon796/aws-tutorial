@@ -33,13 +33,17 @@ Click **Review and Launch** when you are completed. Ignore the next page and cli
 
 Things get a bit tricky here. A key pair is a file that you need to download that is necessary for you to SSH into an EC2 instance. You'll need to create a new key pair and download that key pair into somewhere accessible. I personally recommend downloading that key pair and moving it to your home directory, because that's where it's the most accessible. Again, be sure to name the file something you can remember - the file will have the .pem extension.
 
-Go back to your EC2 management console at https://console.aws.amazon.com/ec2/v2/home and you'll see that you'll have "1 Running Instance" under the Resources section. Click on that, and you'll be taken to a page where you can view your instances. You may have to wait a bit for the instance to actually get set up. Click on the left checkbox on your instance, and details about your instance will pop up in the bottom. Find your **Public DNS** under the **Description** tab. It should be something like **ec2-54-209-134-187.compute-1.amazonaws.com**.
+Go back to your EC2 management console at https://console.aws.amazon.com/ec2/v2/home and you'll see that you'll have "1 Running Instance" under the Resources section. Click on that, and you'll be taken to a page where you can view your instances. You may have to wait a bit for the instance to actually get set up. Click on the left checkbox on your instance, and details about your instance will pop up in the bottom. Find your **Public DNS** under the **Description** tab. It should be something like **ec2-54-209-134-187.compute-1.amazonaws.com**. Copy the public DNS.
 
 
-Now locate the directory where the .pem key pair is located (the home directory if you followed my recommendation). Open up your terminal, move to that directory, and type in:
+Now locate the directory where the .pem key pair is located (the home directory if you followed my recommendation). Open up your terminal, move to that directory, and type in: ssh -i [your key pair filename] ec2-user@[your public DNS]. 
 
-ssh -i trill.pem ec2-user@ec2-54-175-186-221.compute-1.amazonaws.com
+Your username for the EC2 instance is just ec2-user, so you won't have to change that part. If all goes well, it should look like the below:
 
+```
+ssh -i my_key_pair.pem ec2-user@ec2-54-175-186-221.compute-1.amazonaws.com
+```
 
+You should get a welcome message at this point from the Amazon Linux AMI - if you've gotten this far, then congratulations! You have successfully created/started an AWS EC2 instance. 
 
-
+The next part of the tutorial will help you set up RDS to work on your computer. 
