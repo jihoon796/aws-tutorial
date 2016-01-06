@@ -47,5 +47,5 @@ ssh -i my_key_pair.pem ec2-user@ec2-54-175-186-221.compute-1.amazonaws.com
 At this point, you should get a welcome message at this point from the Amazon Linux AMI - if you've gotten this far, then congratulations! You have successfully created/started an AWS EC2 instance. You can ```cd``` or ```ls``` and create your own files now. I recommend installing git and using ```git pull``` to pull from a GitHub repository to test things out. The Amazon Linux AMI doesn't come with much, so you'll have to upgrade Python and other such dependencies yourself. 
 
 One gotcha about Amazon Linux is that sudo pip install won't work well - you'll have to follow my directions here: http://stackoverflow.com/questions/34103119/upgrade-pip-in-amazon-linux/34584537#34584537
-
+<br><br>
 *The next part of the tutorial will help you set up RDS to work on your computer.*
