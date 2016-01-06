@@ -24,9 +24,9 @@ This really depends on what you want to do. For the most part, **t2.micro**, **t
 
 If you followed the steps mentioned above, you should've been skipped ahead to step 7 on the AWS console. In this step, we'll configure the **Security Groups** setting. The default security groups setting won't actually allow you to use EC2 through your local machine, so getting this part working is essential.
 
-Click on *Edit security groups* on the bottom right. Once you've done that, click on the *Create a new security group* radio button. Be sure to give your security group a name you won't easily forget, since you may be referring back to this at some point in the future. Go to **Type**, then select the *All traffic* option. Check to see that the *Protocol* is set to *All*, the *Port Range* is set to *0 - 65535*, and the *Source* is *Anywhere*.
+Click on *Edit security groups* on the bottom right. Once you've done that, click on the *Create a new security group* radio button. Be sure to give your security group a name you won't easily forget, since you may be referring back to this at some point in the future. Go to *Type*, then select the *All traffic* option. Check to see that the *Protocol* is set to *All*, the *Port Range* is set to *0 - 65535*, and the *Source* is *Anywhere*.
 
-Click *Review and Launch* when you are completed. Ignore the next page and click **Launch**.  
+Click *Review and Launch* when you are completed. Ignore the next page and click *Launch*.  
 <br>
 
 **Step 4: Create a New Key Pair**
