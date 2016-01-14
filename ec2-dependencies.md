@@ -2,7 +2,6 @@
 ### For Amazon Linux AMI (CentOS, not Ubuntu)
 <br>
 **1. Install the following, in this order:**
-
 `sudo yum install gcc` <br>
 `sudo yum install mysql mysql-devel mysql-libs` <br>
 `sudo yum install python-devel` <br>
