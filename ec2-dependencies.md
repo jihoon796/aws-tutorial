@@ -1,6 +1,7 @@
 ## Installing Tricky Python Dependencies for Your AWS EC2 Instance
 ### For Amazon Linux AMI (CentOS, not Ubuntu)
-<br>
+<br><br>
+*Updated January 14, 2016* <br>
 **1. Install the following, in this order:**<br>
 `sudo yum install gcc` <br>
 `sudo yum install mysql mysql-devel mysql-libs` <br>
