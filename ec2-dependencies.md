@@ -13,7 +13,7 @@ To upgrade: `sudo pip install --upgrade` <br><br>
 When you upgrade pip on an EC2 instance, your `sudo pip` will be broken. To set the correct path, look at my answer on StackOverflow: http://stackoverflow.com/questions/34103119/upgrade-pip-in-amazon-linux/34584537#34584537 <br><br>
 
 **3. Install numpy** <br>
-`sudo yum install python27-numpy`
+`sudo yum install python27-numpy`<br><br>
 
 **4. Install scipy** <br>
-`sudo yum install python27-scipy`
+`sudo yum install python27-scipy` <br><br>
