@@ -1,16 +1,14 @@
-1. Install the following, in this order:
+## Installing Tricky EC2 Dependencies
 
-`
-sudo yum install gcc
-sudo yum install mysql mysql-devel mysql-libs 
-sudo yum install python-devel
-sudo yum install MySQL-python 
-sudo pip install mysql-python
-`
-2. Upgrade pip - set the correct path for `sudo pip`
+**1. Install the following, in this order:**
 
-3. Install numpy
+`sudo yum install gcc` <br>
+`sudo yum install mysql mysql-devel mysql-libs` <br>
+`sudo yum install python-devel` <br>
+`sudo yum install MySQL-python` <br>
+`sudo pip install mysql-python` <br>
 
-`
-sudo yum install python27-numpy
-`
+**2. Upgrade pip - set the correct path for** `sudo pip`
+
+**3. Install numpy** <br>
+`sudo yum install python27-numpy`
