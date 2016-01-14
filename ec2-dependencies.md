@@ -1,4 +1,4 @@
-## Installing Tricky EC2 Dependencies
+## Installing Tricky Python Dependencies for Your AWS EC2 Instance
 
 **1. Install the following, in this order:**
 
@@ -12,3 +12,6 @@
 
 **3. Install numpy** <br>
 `sudo yum install python27-numpy`
+
+**4. Install scipy** <br>
+`sudo yum install python27-scipy`
