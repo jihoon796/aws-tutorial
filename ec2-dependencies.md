@@ -17,3 +17,6 @@ When you upgrade pip on an EC2 instance, your `sudo pip` will be broken. To set 
 
 **4. Install scipy** <br>
 `sudo yum install python27-scipy` <br><br>
+
+**5. Install matplotlib** <br>
+`sudo yum install python27-matplotlib` <br><br>
