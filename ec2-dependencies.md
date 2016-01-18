@@ -1,4 +1,4 @@
-## Installing Tricky Python Dependencies on Your AWS EC2 Instance
+## Installing Tricky Python 2.7 Dependencies on Your AWS EC2 Instance
 ### For Amazon Linux AMI (CentOS, not Ubuntu)
 *Updated January 14, 2016* <br><br>
 **1. Install the following, in this order:**<br>
